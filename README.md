@@ -1,2 +1,2 @@
 # uece-platform
-Prótoipo de plataforma de estudos para auece utilizando React
+Protótipo de plataforma de estudos para a UECE utilizando React.
