@@ -13,7 +13,7 @@ export function Post() {
           />
           <div className={styles.autorInfo}>
             <strong>Yan Gurgel</strong>
-            <span>Aluno/Bolsista IC</span>
+            <span>Aluno/Bolsista</span>
           </div>
         </div>
 
