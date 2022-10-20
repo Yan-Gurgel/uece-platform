@@ -11,7 +11,7 @@ export function Post() {
             className={styles.avatar}
             src={yan}
           />
-          <div className={styles.autorInfo}>
+          <div className={styles.authorInfo}>
             <strong>Yan Gurgel</strong>
             <span>Aluno/Bolsista</span>
           </div>
