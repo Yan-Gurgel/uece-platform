@@ -34,6 +34,16 @@ export function Post() {
           <a href="">wwww.drive.com.br/link/material/aula05</a>
         </p>
       </div>
+
+      <form className={styles.commentForm}>
+        <strong>Deixe o seu comentário</strong>
+        <textarea 
+            placeholder="Escreva aqui o seu comentário"
+        />
+        <footer>
+            <button type="submit">Comentar</button>
+        </footer>
+      </form>
     </article>
   );
 }
