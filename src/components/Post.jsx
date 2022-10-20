@@ -1,6 +1,7 @@
 import styles from "./Post.module.css";
 
 import yan from "../assets/yan-profile.png";
+import { Comment } from "./Comment";
 
 export function Post() {
   return (
@@ -44,6 +45,11 @@ export function Post() {
             <button type="submit">Comentar</button>
         </footer>
       </form>
+      <div className={styles.commetList}>
+        <Comment />
+        <Comment />
+        <Comment />
+      </div>
     </article>
   );
 }
