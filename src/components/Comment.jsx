@@ -27,7 +27,7 @@ export function Comment() {
         <footer>
           <button>
             <ThumbsUp />
-            Aplaudir <span>20</span>
+            Gostei! <span>20</span>
           </button>
         </footer>
       </div>
