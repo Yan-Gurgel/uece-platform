@@ -3,6 +3,7 @@ import { PencilLine } from "phosphor-react";
 import styles from "./Sidebar.module.css";
 
 import gabrielle from "../assets/gabrielle.png";
+import { Avatar } from "./Avatar";
 
 export function Sidebar() {
   return (
@@ -13,9 +14,9 @@ export function Sidebar() {
       />
 
       <div className={styles.profile}>
-        <img src={gabrielle} />
-        <strong>Gabrielle Marinho</strong>
-        <span>Professora</span>
+        <Avatar src="https://github.com/Yan-Gurgel.png"/>
+        <strong>Yan Gurgel</strong>
+        <span>Aluno/Bolsista</span>
       </div>
 
       <footer>
