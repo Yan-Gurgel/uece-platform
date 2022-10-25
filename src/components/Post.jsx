@@ -2,16 +2,14 @@ import styles from "./Post.module.css";
 
 import yan from "../assets/yan-profile.png";
 import { Comment } from "./Comment";
+import { Avatar } from "./Avatar";
 
 export function Post() {
   return (
     <article className={styles.post}>
       <header>
         <div className={styles.author}>
-          <img
-            className={styles.avatar}
-            src={yan}
-          />
+          <Avatar src={yan} />
           <div className={styles.authorInfo}>
             <strong>Yan Gurgel</strong>
             <span>Aluno/Bolsista</span>
@@ -38,11 +36,9 @@ export function Post() {
 
       <form className={styles.commentForm}>
         <strong>Deixe o seu comentário</strong>
-        <textarea 
-            placeholder="Escreva aqui o seu comentário"
-        />
+        <textarea placeholder="Escreva aqui o seu comentário" />
         <footer>
-            <button type="submit">Comentar</button>
+          <button type="submit">Comentar</button>
         </footer>
       </form>
       <div className={styles.commetList}>
